@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="800dp"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="vertical"
+	    tools:context=".MainActivity" 
+		android:layout_alignParentTop="true">
+
+	<TableLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"	    
+		    android:layout_gravity="center_horizontal"
+		    android:stretchColumns="0,1,2" >
+		    
+	    <TableRow >
+	   		<TextView
+       			 android:padding="40dp"/>
+	   </TableRow > 
+	    
+		    <TableRow >        
+		        <TextView
+				android:id="@+id/nome_jogador1"
+				android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+		        
+		        <TextView
+				 android:padding = "10dp"/>
+		      
+		        <TextView
+				android:id="@+id/nome_jogador2"
+				android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium" />        
+		   </TableRow>    
+		    
+		   <TableRow >
+		        <TextView
+				android:id="@+id/placar_jogador_1"
+				android:text="@string/zero"
+				android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		           
+		        <TextView
+				android:padding = "10dp"/>
+		 
+				<TextView
+				 android:id="@+id/placar_jogador_2"
+				android:text="@string/zero"
+				android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		   
+		   </TableRow>
+		  
+				 <TextView
+	       			 android:padding="10dp"/>
+		   		<TableRow > 
+		       
+		       
+		       </TableRow> 
+		    
+		   <TableRow >        
+		        <Button
+			    android:id="@+id/casa1"
+			    android:minHeight="70dip"
+			    android:minWidth="70dip" />
+		        
+		        <Button
+				android:id="@+id/casa2"
+				
+				android:minHeight="70dip"
+				android:minWidth="70dip" />
+		        
+		        <Button
+			    android:id="@+id/casa3"
+			
+			    android:minHeight="70dip"
+			    android:minWidth="70dip" />
+		        
+		  </TableRow>
+		 
+		    <TableRow >        
+		      
+			   <Button
+				android:id="@+id/casa4"
+				android:minHeight="70dip"
+				
+				android:minWidth="70dip" />
+		        
+		       <Button
+				android:id="@+id/casa5"
+				
+				android:minHeight="70dip"
+				android:minWidth="70dip" />
+		       
+				<Button
+			    android:id="@+id/casa6"
+			   
+			    android:minHeight="70dip"
+			    android:minWidth="70dip" />
+		        
+		  </TableRow>
+		  
+		  <TableRow >        
+		      
+			   <Button
+				android:id="@+id/casa7"
+				android:minHeight="70dip"
+				android:minWidth="70dip" /> 
+		        
+		      <Button
+			    android:id="@+id/casa8"
+			    android:minHeight="70dip"
+			    android:minWidth="70dip" />
+		
+			<Button
+			    android:id="@+id/casa9"
+			    android:minHeight="70dip"
+			    android:minWidth="70dip" />
+		
+		        
+		  </TableRow>
+		
+		  <TableRow >
+		   <TextView
+	       			 android:padding="10dp"/>
+		   </TableRow > 
+		  
+		    <TableRow >        
+		      
+			   <Button
+				android:id="@+id/novo_jogo"
+				android:minWidth="120dip"
+				android:text="@string/novo_jogo" />
+			   
+			   <TextView
+		        android:padding = "10dp"/>
+		     
+		     <Button
+				android:id="@+id/sair"
+				android:minWidth="120dip"
+				android:text="@string/sair" />
+		
+			
+				 
+		
+		        
+		  </TableRow>
+		
+	
+		  
+			 
+		</TableLayout>
+	
+	
+	</RelativeLayout>

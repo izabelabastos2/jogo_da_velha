@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Juego3enRaya</string>
+    <string name="action_settings">Settings</string>
+    <string name="caixaLegendaNome1">Nombre jugador 1</string>
+    <string name="caixaLegendaNome2">Nombre jugador 2</string>
+    <string name="empate">Empate</string>
+    <string name="empezar"> Empezar Juego</string>
+    <string name="novo_jogo">Nuevo Juego</string>
+    <string name="nome_Jugador_1">Nombre jugador 1</string>    
+    <string name="nome_Jugador_2">Nombre jugador 2</string>
+    <string name="sair">Salir</string>
+    <string name="title_activity_app_tela1">AppTela1Activity</string>
+    <string name="zero">0</string>   
+
+
+</resources>

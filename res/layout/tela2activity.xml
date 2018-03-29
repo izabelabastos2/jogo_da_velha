@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="800dp"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@android:dimen/thumbnail_height"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@android:dimen/thumbnail_width"
+        android:stretchColumns="0,1">
+		    
+		    <TableRow>
+		    	<TextView android:id="@+id/caixaLegendaNome1"
+			       		 android:text="@string/caixaLegendaNome1"
+			       		 android:layout_width="match_parent"
+			      		 android:layout_height="wrap_content"
+			       		 android:layout_gravity="center_horizontal"
+						 android:textAppearance="?android:attr/textAppearanceMedium"/>
+		    </TableRow > 
+		    	
+			<TableRow >
+	   			<TextView android:padding = "10dp"/>
+	  		</TableRow > 
+			
+			<TableRow > 
+			    <EditText android:id="@+id/nome_Jugador_1"
+			        	  android:layout_width="wrap_content"
+			        	  android:layout_height="wrap_content"
+			        	  android:layout_gravity="center_horizontal"
+			        	  android:textAppearance="?android:attr/textAppearanceMedium" 
+			        	  />
+		    </TableRow>
+	
+		    <TableRow >
+	  		</TableRow > 	  		
+		    
+		    <TableRow >
+			   <TextView android:id="@+id/caixaLegendaNome2"
+			        	android:text="@string/caixaLegendaNome2"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_gravity="center_horizontal" 
+			        	
+			        	android:textAppearance="?android:attr/textAppearanceMedium"/>
+			</TableRow > 
+			
+			<TableRow >
+	   			<TextView android:padding="10dp"/>
+	  		</TableRow > 
+	  			
+			<TableRow >    
+			    <EditText
+			        android:id="@+id/nome_Jugador_2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:textAppearance="?android:attr/textAppearanceMedium"/>
+	   		 </TableRow>
+	   		 		
+</TableLayout>
+
+				<Button
+				    android:id="@+id/empezar"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentBottom="true"
+				    android:layout_alignParentRight="true"
+				    android:layout_marginBottom="189dp"
+				    android:layout_marginRight="140dp"
+				    android:onClick="click"
+				    android:text="@string/empezar"
+				    android:textAppearance="?android:attr/textAppearanceMedium"
+				    android:textStyle="normal"/>
+				    
+				    
+		
+				<Button
+				    android:id="@+id/salirDelJuego"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignBaseline="@+id/empezar"
+				    android:layout_alignBottom="@+id/empezar"
+				    android:layout_marginRight="204dp"
+				    android:layout_toLeftOf="@+id/empezar"
+				    android:onClick="clickVolver"
+				    android:textAppearance="?android:attr/textAppearanceMedium"
+				    android:textStyle="normal"
+				    android:text="            Salir            " />
+
+	
+</RelativeLayout>
